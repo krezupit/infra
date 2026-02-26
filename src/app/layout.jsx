@@ -8,6 +8,12 @@ export const metadata = {
     description: 'End-to-end IT infrastructure services including Data Center setup, Enterprise Networking, Structured Cabling, Server Installation, and AMC support.',
 };
 
+export const viewport = {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+};
+
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
