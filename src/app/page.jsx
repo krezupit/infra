@@ -197,7 +197,7 @@ export default function Home() {
             <section className="cta-section section-padding text-center">
                 <div className="container" style={{ position: 'relative', zIndex: 1 }}>
                     <AnimeWrapper animationType="scaleUp">
-                        <span className="section-label" style={{ background: 'rgba(255,255,255,0.2)', borderColor: 'rgba(255,255,255,0.4)', color: 'white' }}>Free Consultation</span>
+                        <span className="section-label" style={{ background: 'var(--accent-secondary)', borderColor: 'var(--accent-primary)', color: 'white' }}>Free Consultation</span>
                         <h2 className="section-title mt-1">Need reliable IT infrastructure support?</h2>
                         <p className="section-desc mx-auto mt-1">Contact us today — we&apos;ll assess your needs and provide a tailored solution.</p>
                         <div className="hero-cta-group mt-3" style={{ justifyContent: 'center' }}>

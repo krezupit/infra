@@ -56,7 +56,7 @@ export default function IndustriesPage() {
                                 }}>
                                     {ind.emoji}
                                 </div>
-                                <h3 className="card-title">{ind.title}</h3>
+                                <h2 className="card-title" style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: '0.75rem' }}>{ind.title}</h2>
                                 <p>{ind.desc}</p>
                             </AnimeWrapper>
                         ))}

@@ -7,17 +7,20 @@
   --bg-tertiary: #e4ecfa;
   --bg-card: #ffffff;
 
-  /* Accents — vivid blue & sky */
-  --accent-primary: #1558d6;
+  /* Accents — vibrant blue */
+  --accent-primary: #1e40af;
+  /* Blue-800: compliant with white and light-blue bg */
   --accent-secondary: #0ea5e9;
   --accent-teal: #06b6d4;
-  --accent-glow: rgba(26, 108, 246, 0.25);
-  --accent-glow-soft: rgba(26, 108, 246, 0.08);
+  --accent-glow: rgba(30, 64, 175, 0.25);
+  --accent-glow-soft: rgba(30, 64, 175, 0.08);
 
   /* Text */
   --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-muted: #64748b;
+  --text-secondary: #334155;
+  /* Slate-700 for better body text contrast */
+  --text-muted: #475569;
+  /* Slate-600: passing for small text */
 
   /* UI */
   --border-color: rgba(26, 108, 246, 0.12);
@@ -315,11 +318,12 @@ a {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--accent-primary);
+  color: #1e3a8a;
+  /* Explicit darker blue for readability */
   margin-bottom: 1rem;
-  padding: 0.3rem 1rem;
-  background: rgba(26, 108, 246, 0.08);
-  border: 1px solid rgba(26, 108, 246, 0.18);
+  padding: 0.35rem 1.15rem;
+  background: #eff6ff;
+  border: 1px solid rgba(30, 64, 175, 0.25);
   border-radius: 50px;
 }
 
