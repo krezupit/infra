@@ -12,11 +12,11 @@ export const metadata = {
     description:
         'Krezup is a leading IT infrastructure company in Pune. We provide Data Center setup, Enterprise Networking, Structured Cabling, Server Installation, Network Security & AMC across Hinjewadi, Chakan, Pimpri-Chinchwad, MIDC.',
     keywords: 'IT infrastructure Pune, data center setup Pune, enterprise networking Pune, structured cabling Pune, network AMC Pune, server installation Pune, MIDC IT company, Hinjewadi IT services',
-    alternates: { canonical: 'https://krezup.com' },
+    alternates: { canonical: 'https://krezup.in' },
     openGraph: {
         title: 'IT Infrastructure Company in Pune | Krezup',
         description: 'Data Center, Networking, Cabling, Server & AMC services across Pune MIDC.',
-        url: 'https://krezup.com',
+        url: 'https://krezup.in',
     },
 };
 
@@ -28,7 +28,7 @@ const faqSchema = {
         { '@type': 'Question', name: 'What IT infrastructure services does Krezup offer in Pune?', acceptedAnswer: { '@type': 'Answer', text: 'Krezup offers Data Center setup, Enterprise Networking, Structured Cabling (Cat6/Fiber), Server Installation, Network Security, and AMC across Pune and MIDC.' } },
         { '@type': 'Question', name: 'Which areas in Pune does Krezup serve?', acceptedAnswer: { '@type': 'Answer', text: 'Krezup serves Hinjewadi, Baner, Wakad, Pimpri-Chinchwad, Chakan, Ranjangaon MIDC, Talegaon, Hadapsar, Kharadi, and Magarpatta.' } },
         { '@type': 'Question', name: 'Does Krezup provide AMC for network and IT hardware?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, Krezup provides SLA-based Annual Maintenance Contracts for networks, servers, and hardware with guaranteed response times.' } },
-        { '@type': 'Question', name: 'How can I contact Krezup for IT support in Pune?', acceptedAnswer: { '@type': 'Answer', text: 'Call +91 9145361357 or email info@krezup.com. Hours: Mon–Sat 9AM–6PM, 24/7 for AMC clients.' } },
+        { '@type': 'Question', name: 'How can I contact Krezup for IT support in Pune?', acceptedAnswer: { '@type': 'Answer', text: 'Call +91 9145361357 or email info@krezup.in. Hours: Mon–Sat 9AM–6PM, 24/7 for AMC clients.' } },
         { '@type': 'Question', name: 'Does Krezup design and set up data centers?', acceptedAnswer: { '@type': 'Answer', text: 'Yes — end-to-end data center design, rack installation, server/storage deployment, cooling, and ongoing AMC across Pune.' } },
     ],
 };
@@ -75,9 +75,10 @@ export default function Home() {
         <div>
             <Script id="faq-schema" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             {/* Google tag (gtag.js) */}
-            <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-17984101281" />
+            <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=AW-17984101281" />
             <Script
                 id="google-analytics"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{
                     __html: `
                         window.dataLayer = window.dataLayer || [];
@@ -124,7 +125,7 @@ export default function Home() {
                         {keyServices.map((s, i) => (
                             <AnimeWrapper key={i} className="feature-item" animationType="fadeUp" delay={i * 80}>
                                 <div className="feature-item-icon">{s.icon}</div>
-                                <h4>{s.title}</h4>
+                                <h3>{s.title}</h3>
                                 <p>{s.desc}</p>
                             </AnimeWrapper>
                         ))}

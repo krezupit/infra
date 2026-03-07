@@ -3,7 +3,7 @@ import Link from 'next/link';
 export const metadata = {
     title: 'Terms of Service | Krezup — IT Infrastructure Pune',
     description: 'Read the Terms of Service for Krezup IT infrastructure services including Data Center setup, Networking, AMC, and Structured Cabling in Pune.',
-    alternates: { canonical: 'https://krezup.com/terms-of-service' },
+    alternates: { canonical: 'https://krezup.in/terms-of-service' },
 };
 
 export default function TermsOfService() {
@@ -23,7 +23,7 @@ export default function TermsOfService() {
                     <div className="legal-content">
 
                         <div className="legal-intro">
-                            <p>These Terms of Service ("Terms") govern your use of the website <strong>krezup.com</strong> and any IT infrastructure services provided by <strong>Krezup</strong> ("Company", "we", "us", or "our"). By accessing our website or engaging our services, you agree to be bound by these Terms.</p>
+                            <p>These Terms of Service ("Terms") govern your use of the website <strong>krezup.in</strong> and any IT infrastructure services provided by <strong>Krezup</strong> ("Company", "we", "us", or "our"). By accessing our website or engaging our services, you agree to be bound by these Terms.</p>
                         </div>
 
                         <div className="legal-section">
@@ -96,7 +96,7 @@ export default function TermsOfService() {
 
                         <div className="legal-section">
                             <h2>7. Intellectual Property</h2>
-                            <p>All content on krezup.com — including text, graphics, logos, and documentation — is the intellectual property of Krezup and protected by applicable copyright and trademark laws. You may not reproduce, distribute, or use our content without prior written permission.</p>
+                            <p>All content on krezup.in — including text, graphics, logos, and documentation — is the intellectual property of Krezup and protected by applicable copyright and trademark laws. You may not reproduce, distribute, or use our content without prior written permission.</p>
                         </div>
 
                         <div className="legal-section">
@@ -141,7 +141,7 @@ export default function TermsOfService() {
                                 <p><strong>Krezup</strong></p>
                                 <p>Pune, Maharashtra, India</p>
                                 <p>📞 <a href="tel:+919145361357">+91 91453 61357</a></p>
-                                <p>✉️ <a href="mailto:info@krezup.com">info@krezup.com</a></p>
+                                <p>✉️ <a href="mailto:info@krezup.in">info@krezup.in</a></p>
                             </div>
                         </div>
 

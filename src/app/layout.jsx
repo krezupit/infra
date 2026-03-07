@@ -1,7 +1,20 @@
 import './globals.css';
+import { Outfit, Inter } from 'next/font/google';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import FloatingChat from '../components/FloatingChat';
+
+const outfit = Outfit({
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-heading',
+});
+
+const inter = Inter({
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-body',
+});
 
 export const metadata = {
     title: 'Krezup | Hardware & Networking Solutions Pune',
@@ -11,12 +24,11 @@ export const metadata = {
 export const viewport = {
     width: 'device-width',
     initialScale: 1,
-    maximumScale: 1,
 };
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html lang="en" className={`${outfit.variable} ${inter.variable}`}>
             <body>
                 <Navbar />
                 <main className="main-content">

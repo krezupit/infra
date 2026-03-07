@@ -1,5 +1,4 @@
 /* === PREMIUM LIGHT THEME === */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
 
 :root {
   /* Light backgrounds */
@@ -9,7 +8,7 @@
   --bg-card: #ffffff;
 
   /* Accents — vivid blue & sky */
-  --accent-primary: #1a6cf6;
+  --accent-primary: #1558d6;
   --accent-secondary: #0ea5e9;
   --accent-teal: #06b6d4;
   --accent-glow: rgba(26, 108, 246, 0.25);
@@ -18,7 +17,7 @@
   /* Text */
   --text-primary: #0f172a;
   --text-secondary: #475569;
-  --text-muted: #94a3b8;
+  --text-muted: #64748b;
 
   /* UI */
   --border-color: rgba(26, 108, 246, 0.12);
@@ -27,8 +26,7 @@
   --glass-border: rgba(255, 255, 255, 0.9);
 
   /* Typography */
-  --font-heading: 'Outfit', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  /* Provided by next/font through CSS variables */
 
   --container-width: 1240px;
   --nav-height: 80px;

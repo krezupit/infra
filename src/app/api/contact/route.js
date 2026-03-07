@@ -39,7 +39,7 @@ export async function POST(req) {
         const mailOptions = {
             from: `"${name}" <${smtpUser}>`, // Must send from authenticated address
             replyTo: email,
-            to: process.env.CONTACT_RECEIVER_EMAIL || 'info@krezup.com',
+            to: process.env.CONTACT_RECEIVER_EMAIL || 'info@krezup.in',
             subject: `New Lead - KrezupIT: ${service || 'General Inquiry'}`,
             text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\n\nMessage:\n${message}`,
             html: `

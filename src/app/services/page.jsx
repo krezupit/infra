@@ -6,11 +6,11 @@ export const metadata = {
     description:
         'Krezup offers complete IT infrastructure services in Pune: Data Center setup, Enterprise Networking (LAN/WAN), Structured Cabling (Cat6/Fiber), Server Virtualization, Network Security, and Annual Maintenance Contracts (AMC).',
     keywords: 'data center services Pune, structured cabling Pune, network AMC Pune, server installation Pune, fiber optic cabling Pune, firewall installation Pune, IT services MIDC',
-    alternates: { canonical: 'https://krezup.com/services' },
+    alternates: { canonical: 'https://krezup.in/services' },
     openGraph: {
         title: 'IT Infrastructure Services Pune — Krezup',
         description: 'Data Center, Networking, Cabling, Server & Security services in Pune.',
-        url: 'https://krezup.com/services',
+        url: 'https://krezup.in/services',
     },
 };
 

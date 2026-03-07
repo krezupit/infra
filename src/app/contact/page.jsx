@@ -5,13 +5,13 @@ import ContactForm from '../../components/ContactForm';
 export const metadata = {
     title: 'Contact Krezup | IT Infrastructure Support in Pune — Call +91 9145361357',
     description:
-        'Contact Krezup for Data Center setup, Enterprise Networking, AMC & IT infrastructure support in Pune. Call +91 9145361357 or email info@krezup.com. Serving Hinjewadi, Chakan, MIDC, Pimpri-Chinchwad.',
+        'Contact Krezup for Data Center setup, Enterprise Networking, AMC & IT infrastructure support in Pune. Call +91 9145361357 or email info@krezup.in. Serving Hinjewadi, Chakan, MIDC, Pimpri-Chinchwad.',
     keywords: 'contact Krezup Pune, IT support Pune, data center support Pune, network AMC contact, IT AMC Pune phone',
-    alternates: { canonical: 'https://krezup.com/contact' },
+    alternates: { canonical: 'https://krezup.in/contact' },
     openGraph: {
         title: 'Contact Krezup | IT Infrastructure Pune',
         description: 'Call +91 9145361357 for data center, networking & AMC support across Pune.',
-        url: 'https://krezup.com/contact',
+        url: 'https://krezup.in/contact',
     },
 };
 
@@ -44,7 +44,7 @@ export default function ContactPage() {
                                         <MapPin size={24} />
                                     </div>
                                     <div>
-                                        <h4>Our Office</h4>
+                                        <h3>Our Office</h3>
                                         <p>Pune, Maharashtra, India<br />Serving all MIDC areas.</p>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@ export default function ContactPage() {
                                         <Phone size={24} />
                                     </div>
                                     <div>
-                                        <h4>Phone</h4>
+                                        <h3>Phone</h3>
                                         <p>+91 91453 61357</p>
                                     </div>
                                 </div>
@@ -64,8 +64,8 @@ export default function ContactPage() {
                                         <Mail size={24} />
                                     </div>
                                     <div>
-                                        <h4>Email</h4>
-                                        <p>info@krezup.com</p>
+                                        <h3>Email</h3>
+                                        <p>info@krezup.in</p>
                                     </div>
                                 </div>
 
@@ -74,7 +74,7 @@ export default function ContactPage() {
                                         <Clock size={24} />
                                     </div>
                                     <div>
-                                        <h4>Working Hours</h4>
+                                        <h3>Working Hours</h3>
                                         <p>Monday - Saturday: 9:00 AM - 6:00 PM<br />24/7 Support for AMC Clients</p>
                                     </div>
                                 </div>

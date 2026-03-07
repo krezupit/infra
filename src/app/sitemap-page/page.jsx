@@ -4,7 +4,7 @@ import { Home, Info, Wrench, Building2, Phone, Map } from 'lucide-react';
 export const metadata = {
     title: 'Sitemap | Krezup — IT Infrastructure Pune',
     description: 'Browse all pages of the Krezup website — IT infrastructure services, industries, about us, and contact information.',
-    alternates: { canonical: 'https://krezup.com/sitemap' },
+    alternates: { canonical: 'https://krezup.in/sitemap' },
     robots: { index: false },
 };
 

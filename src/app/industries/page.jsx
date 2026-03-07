@@ -5,11 +5,11 @@ export const metadata = {
     description:
         'Krezup delivers specialized IT infrastructure solutions for manufacturing, IT companies, pharma, BFSI, data centers, and educational institutions in Pune, MIDC, Chakan, Hinjewadi, and Ranjangaon.',
     keywords: 'IT infrastructure manufacturing Pune, pharma IT Pune, BFSI network Pune, data center Pune, MIDC IT company, industrial networking Pune, PLC SCADA networking',
-    alternates: { canonical: 'https://krezup.com/industries' },
+    alternates: { canonical: 'https://krezup.in/industries' },
     openGraph: {
         title: 'Industries We Serve | Krezup Pune',
         description: 'IT solutions for manufacturing, pharma, BFSI, data centers across Pune MIDC.',
-        url: 'https://krezup.com/industries',
+        url: 'https://krezup.in/industries',
     },
 };
 

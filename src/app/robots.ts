@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
                 disallow: ['/api/', '/_next/'],
             },
         ],
-        sitemap: 'https://krezup.com/sitemap.xml',
-        host: 'https://krezup.com',
+        sitemap: 'https://krezup.in/sitemap.xml',
+        host: 'https://krezup.in',
     };
 }

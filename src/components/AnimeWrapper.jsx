@@ -70,11 +70,6 @@ export default function AnimeWrapper({
             rootMargin: '0px 0px -50px 0px' // Slightly before it completely enters
         });
 
-        // Set initial state before animation
-        if (animationType.includes('fade') || animationType.includes('slide') || animationType === 'scaleUp') {
-            el.style.opacity = '0';
-        }
-
         observer.observe(el);
 
         return () => {
@@ -82,8 +77,10 @@ export default function AnimeWrapper({
         };
     }, [animationType, delay, duration]);
 
+    const useInitialOpacity = animationType.includes('fade') || animationType.includes('slide') || animationType === 'scaleUp';
+
     return (
-        <div ref={elementRef} className={className}>
+        <div ref={elementRef} className={className} style={{ opacity: useInitialOpacity ? 0 : 1 }}>
             {children}
         </div>
     );

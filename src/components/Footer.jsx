@@ -29,7 +29,7 @@ export default function Footer() {
 
                     {/* Quick Links */}
                     <div className="footer-col">
-                        <h4 className="footer-heading">Quick Links</h4>
+                        <h3 className="footer-heading">Quick Links</h3>
                         <ul className="footer-links">
                             <li><Link href="/">Home</Link></li>
                             <li><Link href="/about">About Us</Link></li>
@@ -40,7 +40,7 @@ export default function Footer() {
 
                     {/* Services */}
                     <div className="footer-col">
-                        <h4 className="footer-heading">Our Services</h4>
+                        <h3 className="footer-heading">Our Services</h3>
                         <ul className="footer-links">
                             <li><Link href="/services#data-center">Data Center Setup</Link></li>
                             <li><Link href="/services#networking">Enterprise Networking</Link></li>
@@ -52,7 +52,7 @@ export default function Footer() {
 
                     {/* Contact Info */}
                     <div className="footer-col">
-                        <h4 className="footer-heading">Contact Us</h4>
+                        <h3 className="footer-heading">Contact Us</h3>
                         <ul className="footer-contact">
                             <li>
                                 <MapPin size={18} className="contact-icon" />
@@ -64,7 +64,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Mail size={18} className="contact-icon" />
-                                <span>info@krezup.com</span>
+                                <span>info@krezup.in</span>
                             </li>
                         </ul>
                     </div>

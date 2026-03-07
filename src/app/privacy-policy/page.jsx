@@ -3,7 +3,7 @@ import Link from 'next/link';
 export const metadata = {
     title: 'Privacy Policy | Krezup — IT Infrastructure Pune',
     description: 'Read the Privacy Policy of Krezup to understand how we collect, use, and protect your personal information.',
-    alternates: { canonical: 'https://krezup.com/privacy-policy' },
+    alternates: { canonical: 'https://krezup.in/privacy-policy' },
 };
 
 export default function PrivacyPolicy() {
@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
                     <div className="legal-content">
 
                         <div className="legal-intro">
-                            <p>At <strong>Krezup</strong> ("we", "us", or "our"), we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <strong>krezup.com</strong> or contact us for our IT infrastructure services.</p>
+                            <p>At <strong>Krezup</strong> ("we", "us", or "our"), we respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <strong>krezup.in</strong> or contact us for our IT infrastructure services.</p>
                         </div>
 
                         <div className="legal-section">
@@ -92,7 +92,7 @@ export default function PrivacyPolicy() {
                                 <li>Opt out of marketing communications at any time</li>
                                 <li>Lodge a complaint with a data protection authority</li>
                             </ul>
-                            <p>To exercise any of these rights, contact us at <a href="mailto:info@krezup.com">info@krezup.com</a>.</p>
+                            <p>To exercise any of these rights, contact us at <a href="mailto:info@krezup.in">info@krezup.in</a>.</p>
                         </div>
 
                         <div className="legal-section">
@@ -112,7 +112,7 @@ export default function PrivacyPolicy() {
                                 <p><strong>Krezup</strong></p>
                                 <p>Pune, Maharashtra, India</p>
                                 <p>📞 <a href="tel:+919145361357">+91 91453 61357</a></p>
-                                <p>✉️ <a href="mailto:info@krezup.com">info@krezup.com</a></p>
+                                <p>✉️ <a href="mailto:info@krezup.in">info@krezup.in</a></p>
                             </div>
                         </div>
 
